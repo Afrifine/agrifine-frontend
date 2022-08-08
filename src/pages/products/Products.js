@@ -1,9 +1,9 @@
 import React from 'react'
 
 const Products = () => {
-    
+
   return (
-    <div>Products</div>
+    <div className='container text-center'>Products</div>
   )
 }
 
