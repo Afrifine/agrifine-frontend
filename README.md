@@ -1,70 +1,138 @@
-# Getting Started with Create React App
+> # AgriFine Limited Agro System & Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+- Update the farmers via a crop calendar with the right crop to plant,
+Weather updates and forecasts.
+- Provide Alerts of disasters in a specific location [pests, diseases, floods etc] with the immediate action that needs to be taken. 
+- Knowledge in form of books, audio and video-based education in the following areas:
+Land preparation, Crop Sowing, Crop planning.
 
-In the project directory, you can run:
 
-### `npm start`
+### What was AgriFine's motivation as a company to build this application?
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- With Zambias majority being significantly dependant on farming with over 70% of farmers in the country, with staple food as well as their day to day living leaning on farming. Agrifine saw it fit to  build an application that makes it easier for farmers to be more productive with the aid of technology so as to not be left behind on the global farming market and in Zambia as a nation.
 
-### `npm test`
+### Why did AgriFine build this project?
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+ - The reason Agrifine build this project goes back to its mission statement "Making agriculture more efficient, productive, less costly and provide a reliable source of income to the youth". We believe this application will be a significant source of empowerment for not only farmers and aspiring farmers but for the youth alike if there is need for labor.
 
-### `npm run build`
+### What problem does it solve?
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- The project is addressing some of the world's biggest challenges that are outlined in the SUSTAINABLE DEVELOPMENT GOALS that is Poverty, Hunger and Good Health and Well being.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- SDG 1 No Poverty: Poverty levels in Zambia and Africa at large are soaring due to a high number of unemployed youths according to UNFPA. This project is made to help youths fine jobds on the app for those farmers and customers who might need man power on their fsrms thereby reducing the level of idleness and thus cresating employement.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- SDG 2 Zero Hunger: Hunger also is a major problem and it is reported that over 13,000 People die from hunger every day. As Agri-Fine Limited, by increasing productivity of farmers by educating them on the best methods of farming and rearing of animals, we will provide a platform for them to produce enough food for everyone in the country as well as surplus to export.
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+[Live link]()
 
-### `npm run build` fails to minify
+## Table of Contents (Optional)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+If your README is long, add a table of contents to make it easy for users to find what they need.
+
+- [Installation](#installation)
+- [Prerequisites](#prerequisites)
+- [Authors](#authors)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
+
+## Installation
+
+Here are the steps required to install this project on your local machine? This is a step-by-step description of how to get the development environment running.
+
+1. Clone/Copy the following link [link](https://github.com/Afrifine/agrifine-frontend.git)
+2. Open the link on your local machine through the command terminal in your favurite code editor by using the following the command "git clone https://github.com/Afrifine/agrifine-frontend.git" in your prefered directory.
+3. Open project and enjoy.
+
+### Prerequisites
+
+> Browser to Display: 
+
+- [Google Chrome](https://www.google.com/chrome/?brand=JJTC&gclid=Cj0KCQjwxveXBhDDARIsAI0Q0x0NQ8EdSU_z9nY3RyZFhqMbKtSapZbCbQoOISsv91eaydPGcOXnS7QaAivoEALw_wcB&gclsrc=aw.ds)
+- [Opera mini](https://www.opera.com/download)
+- [Microsoft edge](https://www.microsoft.com/en-us/edge)
+
+> IDE to run and edit the code: 
+
+- [Visual Studio code](https://code.visualstudio.com/download)
+- [SUbline text](https://www.sublimetext.com/download)
+- [Atom Editor](https://atom.io/)
+-  Among other intergrated Development Environment's (IDE).
+## Usage
+
+- This application can be used to help clients with Updating the farmers via a crop calendar with the right crop to plant during a specific time of the year at the right time with the right weather.
+- Alerts of disasters in a specific location [pests, diseases, floods etc] with immediate action that needs to be taken
+- knowledge ready on demand in form of books, audio and video-based learning on issues such as land preparation, seed management and other farm based learning.
+- Access to farming equipment for rent or as a service
+- Marketplace for the farmers to sell their produce
+- Insurance for farmers so thy are helped promptly when they are in a disaster.
+- To make sure that the app is accessed by everyone it will be translated into different languages to start with in Zambia it will be in the seven main languages.
+
+- Screenshot will be added here one the application is complete.
+
+    ```md
+    ![alt text](assets/images/screenshot.png)
+    ```
+
+## Authors
+
+👤 **Samuel Mwape**
+- GitHub: [@Mwapsam](https://github.com/Mwapsam)
+
+👤 **Josphat Zairdon Nkonde**
+- GitHub: [@zairdon20](https://github.com/zairdon20)
+
+👤 **Nicholas Mutale**
+- GitHub: [@Mutalenic](https://github.com/Mutalenic)
+
+👤 **Justin Imasiku**
+- GitHub: [@ice949](https://github.com/ice949)
+
+👤 **Kayonga Chiteta**
+- GitHub: [@Kayonga99](https://github.com/Kayonga99/Kayonga99)
+
+👤 **Mirriam Sikalume**
+- GitHub: [@Mirriam6](https://github.com/Mirriam6)
+
+👤 **Anthony Mwenyo**
+- GitHub: [@mwenyoa](https://github.com/mwenyoa)
+
+👤 **Chimwemwe Mkandawire**
+- GitHub: [@chimwemwe007](https://github.com/chimwemwe007)
+
+## License
+
+[MIT License](https://choosealicense.com/licenses/mit/).
+
+Copyright (c) [2022] [Agrifine ltd]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+ ## Badges 🏆
+![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
+
+## How to Contribute
+
+[AgriFine ltd](https://img.shields.io/weblate/l/AgriFine/licence?color=gree&logo=AgriFine%20LTD)
+
+contact us at agrifine@agro.net
