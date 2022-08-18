@@ -1,10 +1,6 @@
-# <AgriFine Limited Application>
+> # AgriFine Limited Agro System & Application
 
 ## Description
-
-This project is an AgriFine Application which is created using the following technologies: JAVASCRIPT, RUBY, REACT, HTML and CSS. 
-
-The purpose of this application is to aid farmers in maximising their produce by rendering the following services to their convinience.
 
 - Update the farmers via a crop calendar with the right crop to plant,
 Weather updates and forecasts.
@@ -15,7 +11,8 @@ Land preparation, Crop Sowing, Crop planning.
 
 ### What was AgriFine's motivation as a company to build this application?
 
-- With a large Zambian population being significantly dependant on farming with over 70% of farmers in the country, with staple food as well as their day to day living leaning on farming. Agrifine saw it fit to  build an application that makes it easier for farmers to be more productive with the aid of technology so as to not be left behind on the global farming market and in Zambia as a nation.
+
+- With Zambias majority being significantly dependant on farming with over 70% of farmers in the country, with staple food as well as their day to day living leaning on farming. Agrifine saw it fit to  build an application that makes it easier for farmers to be more productive with the aid of technology so as to not be left behind on the global farming market and in Zambia as a nation.
 
 ### Why did AgriFine build this project?
 
@@ -33,28 +30,48 @@ Land preparation, Crop Sowing, Crop planning.
 
 [Live link]()
 
-
-
 ## Table of Contents (Optional)
 
 If your README is long, add a table of contents to make it easy for users to find what they need.
 
 - [Installation](#installation)
+- [Prerequisites](#prerequisites)
+- [Authors](#authors)
 - [Usage](#usage)
 - [Credits](#credits)
 - [License](#license)
 
 ## Installation
 
-Here are the steps required to install this project? This is a step-by-step description of how to get the development environment running.
+Here are the steps required to install this project on your local machine? This is a step-by-step description of how to get the development environment running.
 
 1. Clone/Copy the following link [link](https://github.com/Afrifine/agrifine-frontend.git)
 2. Open the link on your local machine through the command terminal in your favurite code editor by using the following the command "git clone https://github.com/Afrifine/agrifine-frontend.git" in your prefered directory.
 3. Open project and enjoy.
 
+### Prerequisites
+
+> Browser to Display: 
+
+- [Google Chrome](https://www.google.com/chrome/?brand=JJTC&gclid=Cj0KCQjwxveXBhDDARIsAI0Q0x0NQ8EdSU_z9nY3RyZFhqMbKtSapZbCbQoOISsv91eaydPGcOXnS7QaAivoEALw_wcB&gclsrc=aw.ds)
+- [Opera mini](https://www.opera.com/download)
+- [Microsoft edge](https://www.microsoft.com/en-us/edge)
+
+> IDE to run and edit the code: 
+
+- [Visual Studio code](https://code.visualstudio.com/download)
+- [SUbline text](https://www.sublimetext.com/download)
+- [Atom Editor](https://atom.io/)
+-  Among other intergrated Development Environment's (IDE).
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+- This application can be used to help clients with Updating the farmers via a crop calendar with the right crop to plant during a specific time of the year at the right time with the right weather.
+- Alerts of disasters in a specific location [pests, diseases, floods etc] with immediate action that needs to be taken
+- knowledge ready on demand in form of books, audio and video-based learning on issues such as land preparation, seed management and other farm based learning.
+- Access to farming equipment for rent or as a service
+- Marketplace for the farmers to sell their produce
+- Insurance for farmers so thy are helped promptly when they are in a disaster.
+- To make sure that the app is accessed by everyone it will be translated into different languages to start with in Zambia it will be in the seven main languages.
 
 - Screenshot will be added here one the application is complete.
 
@@ -62,40 +79,41 @@ Provide instructions and examples for use. Include screenshots as needed.
     ![alt text](assets/images/screenshot.png)
     ```
 
-## Credits
+## Authors
 
-- [Samiel Mwape](https://github.com/Mwapsam)
-- [Josphat Zairdon Nkonde](https://github.com/zairdon20)
-- [Anthony Myenyo](https://github.com/mwenyoa/mwenyoa)
-- [justine Imasiku](https://github.com/ice949)
-- [Nicholas Mutale](https://github.com/Mutalenic)
-- [Kayonga CHiteta](https://github.com/Kayonga99)
-- [Mirriam Sikalume]()
-- [Chimwemwe Mkandawire](https://github.com/chimwemwe007)
+👤 **Samuel Mwape**
+- GitHub: [@Mwapsam](https://github.com/Mwapsam)
 
+👤 **Josphat Zairdon Nkonde**
+- GitHub: [@zairdon20](https://github.com/zairdon20)
+
+👤 **Nicholas Mutale**
+- GitHub: [@Mutalenic](https://github.com/Mutalenic)
+
+👤 **Justin Imasiku**
+- GitHub: [@ice949](https://github.com/ice949)
+
+👤 **Kayonga Chiteta**
+- GitHub: [@Kayonga99](https://github.com/Kayonga99/Kayonga99)
+
+👤 **Mirriam Sikalume**
+- GitHub: [@Mirriam6](https://github.com/Mirriam6)
+
+👤 **Anthony Mwenyo**
+- GitHub: [@mwenyoa](https://github.com/mwenyoa)
+
+👤 **Chimwemwe Mkandawire**
+- GitHub: [@chimwemwe007](https://github.com/chimwemwe007)
 
 ## License
 
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
+[MIT License](https://choosealicense.com/licenses/mit/).
 
----
-
-🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
-
-## Badges
-
+ ## Badges 🏆
 ![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
-
-Badges aren't necessary, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
-
-## Features
-
-If your project has a lot of features, list them here.
 
 ## How to Contribute
 
-[AgrFine ltd](https://img.shields.io/weblate/l/AgriFine/licence?color=gree&logo=AgriFine%20LTD)
+[AgriFine ltd](https://img.shields.io/weblate/l/AgriFine/licence?color=gree&logo=AgriFine%20LTD)
 
-## Tests
-
-Go the extra mile and write tests for your application. Then provide examples on how to run them here.
+contact us at agrifine@agro.net
