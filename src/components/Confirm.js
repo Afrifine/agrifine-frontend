@@ -4,7 +4,7 @@ function Confirm() {
   return (
     <div className='container'>
         <div className='row'>
-            <div className='col-md-8 offset-2-md'>
+            <div className='col-md-8 offset-2-md mt-5'>
                 <div className='card'>
                     <div className='card-header'>
         <h1>Email confirmation</h1>
