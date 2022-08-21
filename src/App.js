@@ -8,6 +8,9 @@ function App() {
       <Route path='/' element={<Home />} />
       <Route path='/products' element={<Products />} />
       <Route path='/about' element={<About />} />
+      <Route path='/confirm' element={<Confirm />} /> 
+      <Route path='/login' element={<Login />} />
+      <Route path='/register' element={<Register />} />
     </Routes>
   );
 }
