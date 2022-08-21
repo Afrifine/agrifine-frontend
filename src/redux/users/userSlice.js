@@ -1,4 +1,5 @@
 import { createSlice } from '@reduxjs/toolkit';
+/* eslint no-param-reassign: "error" */
 
 export const userSlice = createSlice({
   name: 'user',

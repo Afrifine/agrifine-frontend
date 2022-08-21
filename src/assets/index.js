@@ -1,3 +1,3 @@
 import headerImage from './header.png';
 
-export { headerImage }
+export default headerImage;

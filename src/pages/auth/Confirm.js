@@ -1,9 +1,9 @@
-import React from 'react'
+import React from 'react';
 
 function Confirm() {
   return (
     <div>Confirm</div>
-  )
+  );
 }
 
-export default Confirm
+export default Confirm;
