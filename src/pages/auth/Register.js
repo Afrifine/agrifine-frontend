@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import {useDispatch} from 'react-redux';
 import {auth} from '../../firebase'
 import {login} from '../../redux/users/userSlice';
-import { updateProfile,createUserWithEmailAndPassword } from 'firebase/auth';
+import { updateProfile,createUserWithEmailAndPassword, sendEmailVerification } from 'firebase/auth';
 
 function Register() {
     const [email, setEmail] = useState('');
@@ -32,13 +32,19 @@ function Register() {
                         uid: userCredential.user.uid,
                     }))
                     
-                navigate('/confirm');
+                sendEmail();
             })
         })
 
          } catch (error) {
             setError(error.message);
         }
+    }
+    const sendEmail = async () => {
+        sendEmailVerification(auth.currentUser)
+        .then(() => {
+            navigate('/confirm');
+        });
     }
 
 
