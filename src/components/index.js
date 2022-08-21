@@ -1,4 +1,4 @@
 import Navbar from "./navigation/Navbar";
 import Header from "./navigation/Header";
-
-export { Navbar, Header }
+import Confirm from "./Confirm";
+export { Navbar, Header, Confirm };

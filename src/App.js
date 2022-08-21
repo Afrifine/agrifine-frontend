@@ -1,6 +1,7 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import { Home, Products, About, Confirm, Login, Register } from './pages'
+import {Confirm} from './components';
 
 function App() {
   return (

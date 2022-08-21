@@ -32,7 +32,7 @@ function Register() {
                         uid: userCredential.user.uid,
                     }))
                     
-                navigate('/login');
+                navigate('/confirm');
             })
         })
 
