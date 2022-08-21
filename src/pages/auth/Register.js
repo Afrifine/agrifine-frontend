@@ -1,8 +1,9 @@
 import React , {useState} from 'react';
 import { useNavigate } from 'react-router-dom';
 import {useDispatch} from 'react-redux';
-// import {auth,createUserWithEmailAndPassword, updateProfile} from '../..firebase';
-// import {login} from '../redux/users/userSlice';
+import {auth} from '../../firebase'
+import {login} from '../../redux/users/userSlice';
+import { updateProfile,createUserWithEmailAndPassword } from 'firebase/auth';
 
 function Register() {
     const [email, setEmail] = useState('');
@@ -11,11 +12,42 @@ function Register() {
     const [error, setError] = useState('');
     const dispatch = useDispatch();
     const navigate = useNavigate();
+
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+        if(!email.trim() || !password.trim() || !displayName.trim()){
+            setError('All fields are required');
+            return;
+        }
+        try {
+            createUserWithEmailAndPassword(auth, email, password)
+            .then((userCredential) => {
+                updateProfile
+                (auth, displayName)
+                .then(() => {
+                    dispatch(login({
+                        email: userCredential.user.email,
+                        displayName: userCredential.user.displayName,
+                        password: userCredential.user.password,
+                        uid: userCredential.user.uid,
+                    }))
+                    
+                navigate('/login');
+            })
+        })
+
+         } catch (error) {
+            setError(error.message);
+        }
+    }
+
+
     return (
     <div className='container mt-4'>
         <div className='row'>
             <div className='col-md-6 offset-md-3'>
-        <form>
+        <form onSubmit={handleSubmit}>
+            {error && <p>{error}</p>}
             <div className="form-group">
                 <label htmlFor="exampleInputEmail1">Email address</label>
                 <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" onChange={(e) => setEmail(e.target.value)} />
