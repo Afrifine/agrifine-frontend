@@ -1,10 +1,7 @@
-import React from 'react'
+import React from 'react';
 
-const Products = () => {
+const Products = () => (
+  <div className="container text-center">Products</div>
+);
 
-  return (
-    <div className='container text-center'>Products</div>
-  )
-}
-
-export default Products
+export default Products;
