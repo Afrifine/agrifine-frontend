@@ -1,3 +1,5 @@
 import headerImage from './header.png';
+import image1 from './frances.jpg';
+import image2 from './danunsplash.jpg';
 
-export default headerImage;
+export { headerImage, image1, image2 };

@@ -1,14 +1,24 @@
 import React from 'react';
-import headerImage from '../../assets';
+import { headerImage, image1, image2 } from '../../assets';
 
-const Header = () => (
-  <div className="row m-4">
-    <div className="col-md-12 d-flex justify-content-center align-items-baseline container-fluid">
-      <div className="lc-block py-4">
-        <img className="img-fluid img-thumbnail" src={headerImage} alt="Hero" />
+const Header = () => {
+  const images = [headerImage, image1, image2];
+  console.log(images);
+ return (
+  <div className="container-fluid">
+    <div className="row m-4">
+        <div>
+          <img className="img-fluid img-thumbnail" src={headerImage} alt="Hero" />
+        </div>
+        <div>
+          <img className="img-fluid img-thumbnail" src={image1} alt="Hero" />
+        </div>
+        <div>
+          <img className="img-fluid img-thumbnail" src={image2} alt="Hero" />
+        </div>
       </div>
-    </div>
   </div>
-);
+  )
+};
 
 export default Header;
