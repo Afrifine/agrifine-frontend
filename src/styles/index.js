@@ -1,3 +1,4 @@
 import HeaderStyles from './Header.module.css';
-// eslint-disable-next-line import/prefer-default-export
-export { HeaderStyles };
+import prodStyles from './Products.module.css';
+
+export { HeaderStyles, prodStyles };
